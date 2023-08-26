@@ -23,6 +23,7 @@ app.use(express.json());
 
 app.use("/api", require("./Routes/CreatUser"));
 app.use("/api", require("./Routes/DisplayData"));
+app.use("/api", require("./Routes/OrderData"));
 
 app.listen(port, () => {
   console.log("running");
