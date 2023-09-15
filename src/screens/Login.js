@@ -28,7 +28,7 @@ export default function Login() {
       //save the auth toke to local storage and redirect
       localStorage.setItem("userEmail", credentials.email);
       localStorage.setItem("token", json.authToken);
-      navigate("/");
+      navigate("/foodie");
       //     } else {
       //       alert("Enter Valid Credentials");
     }
